@@ -15,3 +15,4 @@ new Phaser.Game({
     },
   },
 });
+
