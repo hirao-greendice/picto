@@ -1,12 +1,28 @@
-html, body {
+:root {
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+}
+
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
-  background: #000;
+  overflow: hidden;
+  background: #090909;
+  touch-action: none;
+}
+
+body {
+  display: grid;
+  place-items: center;
 }
 
 #app {
   width: 100%;
   height: 100%;
+}
+
+#app canvas {
+  display: block;
 }
